@@ -16,26 +16,26 @@ Implement ***unit tests*** which should run automatically.
 
 ## Operations on the set
 ### Inserting an element
--`insert(int e)`: Inserting an element to the end of the set if the element is not making any duplicates in the set.
+`insert(int e)`: Inserting an element to the end of the set if the element is not making any duplicates in the set.
 
 This operation throws an exception if there exists an element from the set which is equal to the given inserting element `(∃i∈[1..n] : a[i] = e)`, otherwise the element should be inserted at the end of the set.
 
 ### Removing an element
 
--`remove(int e)`: Removing an element if the given element exists in the set. If it exists, the last (right-most) element at the end of the set shifts to the removed element’s index. 
+`remove(int e)`: Removing an element if the given element exists in the set. If it exists, the last (right-most) element at the end of the set shifts to the removed element’s index. 
 
 This operation throws an exception if the want to be removed element does not exist in the set `∃i∈[1..n] : a[i] ≠ e`, otherwise the last element would shift to the want to be removed element’s index.
 
 ### Check if the set is empty
 
--`isEmpty()`: If the set is empty, the logical variable returns ‘true’, otherwise it would return ‘false’.
+`isEmpty()`: If the set is empty, the logical variable returns ‘true’, otherwise it would return ‘false’.
 
 ###	Check if the set contains an element
 
--`isIn(int e)`: Checking whether the set contains an element. If the element exists in the set, it stores the index of the element. If the element is not in the set, the logical exists variable sets to ‘false’, otherwise it sets to ‘true’ and stores the index of the element.
+`isIn(int e)`: Checking whether the set contains an element. If the element exists in the set, it stores the index of the element. If the element is not in the set, the logical exists variable sets to ‘false’, otherwise it sets to ‘true’ and stores the index of the element.
 
 ### Get a random element without removing from the set
--`rand_elem()`: Get a random element without removing it from the set. This operation throws an exception if the set is empty, otherwise a random element from the set would return. 
+`rand_elem()`: Get a random element without removing it from the set. This operation throws an exception if the set is empty, otherwise a random element from the set would return. 
 
 ### The count of even numbers in the set.
--`getEvens()`: Returns the count of even numbers in the set. This operation returns number 0 if the set is empty or there is no even element in the set, otherwise the counter variable is increasing by 1 for every even element in the set.
+`getEvens()`: Returns the count of even numbers in the set. This operation returns number 0 if the set is empty or there is no even element in the set, otherwise the counter variable is increasing by 1 for every even element in the set.
